@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log Patient Symptom</title>
+</head>
+<body>
+    <h2>Log Patient Symptom</h2>
+    <form action="log_symptom.php" method="post">
+        Patient ID: <input type="number" name="patient_id"><br><br>
+        Symptom ID: <input type="number" name="symptom_id"><br><br>
+        Date Reported: <input type="date" name="date_reported"><br><br>
+        Severity (1–5): <input type="number" name="severity" min="1" max="5"><br><br>
+        <input type="submit" value="Log Symptom">
+    </form>
+</body>
+</html>
